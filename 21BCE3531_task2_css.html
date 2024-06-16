@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task2 - CSS (21BCE3531)</title>
+    <style>
+        .task3, table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: rgb(9, 169, 114);
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: rgb(232, 233, 234);
+        }
+
+        .task5 {
+            background-color: rgb(214, 218, 63);
+        }
+
+        .task5-aside {
+            display: inline-block;
+            line-height: 2;
+        }
+
+        .task5-h1 {
+            display: inline-block;
+            align-self: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Task (21BCE3531)</h1>
+    <h3>Task3</h3>
+    <table class="task3">
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Berglunds snabbköp</td>
+            <td>Christina Berglund</td>
+            <td>Sweden</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+        <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+        </tr>
+        <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+        </tr>
+        <tr>
+            <td>Königlich Essen</td>
+            <td>Philip Cramer</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+        </tr>
+        <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <h3>Task5</h3>
+    <div class="task5">
+        <aside class="task5-aside">
+            <li style="list-style-type: none;"><a href="#homepage">Home Page</a></li>
+            <li style="list-style-type: none;"><a href="#musings">Musings</a></li>
+            <li style="list-style-type: none;"><a href="#mytown">My Town</a></li>
+            <li style="list-style-type: none;"><a href="#links">Links</a></li>
+        </aside>
+
+        <h1 class="task5-h1">My First styled page</h1>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <h3>Task6</h3>
+    <div style="border: 1px solid;">
+        <p style="font-size: 100px; margin-left: 350px;">&#128105;</p>
+        <p>Username</p>
+        <input type="text" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" placeholder="Enter Password">
+        <br><br>
+        <button type="submit">Login</button>
+        <br><br>
+        <input type="checkbox"> Remember Me
+        <br><br>
+        <button type="reset">Cancel</button>
+        <p>Forgot <a href="#resetpassword">password?</a></p>
+    </div>
+</body>
+</html>
